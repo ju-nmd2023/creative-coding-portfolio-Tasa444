@@ -20,6 +20,7 @@ function draw() {
   /*Following code regarding rotation was written
   *with the help and explanation from Chat GPT*/
 
+  
 //Diagonal line +45°
   push();                                 
   translate(width / 2, height / 2);
