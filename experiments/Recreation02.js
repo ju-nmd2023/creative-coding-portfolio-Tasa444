@@ -19,7 +19,11 @@ function draw() {
   for (let y = 0; y < numRows; y++) {
     for (let x = 0; x < numCols; x++) {
       const value = noise(x / divider, y / divider, counter) * size;
-        
+      
+      /*The inspiration for the triangles
+      *came from the cheat sheet
+      *from the FOP course*/
+     
       // Center of the triangle
       let cx = size / 2 + x * size;
       let cy = size / 2 + y * size;
