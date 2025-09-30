@@ -1,7 +1,13 @@
+let synth;
+
 function setup() {
   createCanvas(600, 600);
   frameRate(10);
+
+  /*This line was written with the help of chat GPT*/
+  synth = new Tone.Synth().toDestination();
 }
+
 
 const size = 10;
 const divider = 1;
@@ -12,8 +18,11 @@ let counter = 0;
 
 /*Animation variables*/
 let isAnimating = false;
-let animationDuration = 1000;
+let animationDuration = 500;
 let timeoutID;
+
+/*Array of possible notes*/
+const notes = ["C4", "D4", "E4", "G4", "A4", "B3", "F4"];
 
 function draw() {
   background(255, 255, 255);
@@ -24,37 +33,41 @@ function draw() {
     for (let x = 0; x < numCols; x++) {
       const value = noise(x / divider, y / divider, counter) * size;
 
-      // Center of the triangle
+      /*Center of the triangle*/
       let cx = size / 2 + x * size;
       let cy = size / 2 + y * size;
 
-      // Equilateral triangle points
+     
       let h = (sqrt(10000) / 2) * value;
       triangle(
-        cx, cy - (2 / 3) * h,   // top vertex
-        cx - value / 2, cy + h, // bottom left
-        cx + value / 2, cy + h  // bottom right
+        cx, cy - (2 / 3) * h,
+        cx - value / 2, cy + h, 
+        cx + value / 2, cy + h  
       );
     }
   }
 
-  // Only update counter if animation is active
+  /*Only update counter if animation is active*/
   if (isAnimating) {
     counter += 0.1;
   }
 }
 
 function mousePressed() {
-  // Start animation
   isAnimating = true;
 
-  /*
-  The logic for this written with
+  Tone.start();
+
+    /*The logic for the following lines
+  *was written with
   *the help of my friend Evan Koehler
   */
+  const randomNote = random(notes);
+  synth.triggerAttackRelease(randomNote, "8n");
+
+
   clearTimeout(timeoutID);
 
-  // Stop animation after duration
   timeoutID = setTimeout(() => {
     isAnimating = false;
   }, animationDuration);

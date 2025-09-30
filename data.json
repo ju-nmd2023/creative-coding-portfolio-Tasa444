@@ -1,23 +1,23 @@
 [
   {
     "file": "experiments/Recreation.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Order & Chaos",
+    "description": "This code creates a grid of tiny squares filled with random lines, like a handmade sketch. Each frame feels unique, turning simple lines into a living, shifting pattern."
   },
   {
     "file": "experiments/Recreation01.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Orbiting Points",
+    "description": "This code fills each cell with random black circles, then gently rotates the grid. The slow spinning motion makes the pattern feel alive and hypnotic."
   },
   {
     "file": "experiments/Recreation02.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Rhythmic Triads",
+    "description": "This code creates a grid of triangles whose sizes shift smoothly using noise, producing a flowing, wave-like effect. The movement gives the pattern a calm, organic rhythm."
   },
     {
     "file": "experiments/Recreation03.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Flowing Lines",
+    "description": "his code creates wavy lines that shift and intersect, forming an abstract, flowing pattern. The diagonal rotations add depth and dynamic movement to the composition."
   }
   ,
     {
@@ -28,6 +28,12 @@
    ,
     {
     "file": "experiments/Recreation05.js",
+    "name": "Name of your experiment",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  }
+,
+  {
+    "file": "experiments/TestforTone.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
