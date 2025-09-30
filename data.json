@@ -2,39 +2,39 @@
   {
     "file": "experiments/Recreation.js",
     "name": "Order & Chaos",
-    "description": "This code creates a grid of tiny squares filled with random lines, like a handmade sketch. Each frame feels unique, turning simple lines into a living, shifting pattern."
+    "description": "The code creates a grid of squares that each contain lines drawn in random locations inside the squares. The concept is to combine a sense of order with a sense of randomness and generate an interesting design. The square and lines are created using random sequences and loops."
   },
   {
     "file": "experiments/Recreation01.js",
     "name": "Orbiting Points",
-    "description": "This code fills each cell with random black circles, then gently rotates the grid. The slow spinning motion makes the pattern feel alive and hypnotic."
+    "description": "This code makes a grid of squares filled with random circles. The idea is to create a changing pattern by adding rotation to each square. It uses loops, random choices, and rotation to build the design."
   },
   {
     "file": "experiments/Recreation02.js",
     "name": "Rhythmic Triads",
-    "description": "This code creates a grid of triangles whose sizes shift smoothly using noise, producing a flowing, wave-like effect. The movement gives the pattern a calm, organic rhythm."
+    "description": "This code draws a grid of triangles that change size and shape using noise. The idea is to create a flowing, wave-like pattern. It uses loops, noise, and simple geometry to make the design move."
   },
     {
     "file": "experiments/Recreation03.js",
     "name": "Flowing Lines",
-    "description": "his code creates wavy lines that shift and intersect, forming an abstract, flowing pattern. The diagonal rotations add depth and dynamic movement to the composition."
+    "description": "This code draws wavy lines using noise, starting with a horizontal line and then adding rotated diagonal ones. The idea is to explore movement and variation through noise and rotation. It uses shapes, transformations, and noise to create the pattern."
   }
   ,
     {
     "file": "experiments/Recreation04.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Whispers in the Flow",
+    "description": "This code creates many agents that move across the canvas, following invisible flow field directions. The idea is to show movement and patterns as agents interact with the field. It uses noise, vectors, and random colors to make the animation dynamic."
   }
    ,
     {
     "file": "experiments/Recreation05.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Sparks of Midnight",
+    "description": "This code creates glowing fire-like particles that burst outward when you click anywhere on the screen. The idea is to mimic sparks or small explosions of light, blending randomness with motion. It uses particles with size, lifespan, and velocity to form fiery bursts, inviting the viewer to interact and create their own sparks."
   }
 ,
   {
-    "file": "experiments/TestforTone.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/Recreation06.js",
+    "name": "Sound Waves in Motion",
+    "description": "This code draws a shifting grid of triangles that move with noise and pairs the visuals with sound. The idea is to connect visuals and music, letting patterns flow while random notes play. By clicking anywhere on the screen, the viewer triggers both the animation and a musical note, making the experience interactive."
   }
 ]
